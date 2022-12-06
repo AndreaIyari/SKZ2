@@ -3,16 +3,20 @@
 <head>
 	<meta charset="utf-8">
 	<title>Contacto</title>
-	<link rel="stylesheet" href="/css/estilos3.css">
+	<link rel="stylesheet" href="/css/estilos.css">
 </head>
 
 <body>
-	<div class="caption">
-    	<span class="main-border">Sus datos han sido enviados, nos pondremos en contato pronto.</span>
-  	</div>
-	<div class="nav">
-		<h3><a href="/">Regresar</a></h3>
-		<br>
+	<div class="bgimg-message">
+  		<div class="caption">
+    		<span class="main-border">Sus datos han sido registrados, lo contactaremos pronto</span>
+			
+			<br><br><br><br>
+			
+			<div class="nav">
+				<h3><a href="/">Regresar</a></h3>
+			</div>
+		</div>
 	</div>
 </body>
 </html>

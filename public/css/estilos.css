@@ -24,7 +24,7 @@ img:hover {
 }
 
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-4, .bgimg-message{
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -52,6 +52,16 @@ img:hover {
 .bgimg-4 {
     background-image: url("https://wallpapercave.com/uwp/uwp1920798.jpeg");
     min-height: 400px;
+}
+
+.bgimg-5 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0504/2932/9574/files/Flower_Wallpaper_Desktop_7_1.jpg?v=1617119371");
+  min-height: 400px;
+}
+
+.bgimg-message {
+  background-image: url("https://cdn.shopify.com/s/files/1/0504/2932/9574/files/Flower_Wallpaper_Desktop_1_1.jpg?v=1617119371");
+  min-height: 100%;
 }
 
 .caption {
@@ -100,6 +110,25 @@ img:hover {
   font-weight: bold;
     font-size: 25px;
     letter-spacing: 10px;
+}
+
+.caption span.border5 {
+  background-color: rgba(255, 221, 80, .75);
+  color: #fff;
+  padding: 18px;
+  font-family: marlina;
+  font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.caption span.message-border {
+  background-color: rgba(230, 120, 142, .75);
+  color: #fff;
+  padding: 18px;
+  font-family: Aishiteru Lover;
+    font-size: 50px;
+    letter-spacing: 15px;
 }
 
 @media only screen and (max-device-width: 1024px) {

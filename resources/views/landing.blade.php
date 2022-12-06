@@ -44,7 +44,7 @@
 
 <div style="position:relative;">
   <div style="color:#777;background-color:white; text-align:center;padding:50px 80px;text-align: justify;">
-  <ul>
+    <ul>
       <li>Pediatría General.</li>
       <li>Alergología Pediátrica.</li>
       <li>Neumología Pediátrica.</li>
@@ -57,9 +57,18 @@
 </div>
 
 <div class="bgimg-4">
-  <div class="caption">
-    <span class="border4"><a href="formulario">Agendar cita.</a></span>
+  <div class="caption" style="position:relative;">
+    <br><br><br><br>
+    <span class="border4"><a href="/formulario">Agendar cita.</a></span>
+    <br><br><br>
+    <span class="border4"><a href="/citas">Ver cita.</a></span>
   </div>
 </div>
+
+<!--<div class="bgimg-5">
+  <div class="caption">
+    <span class="border5"><a href="/citas">Ver cita.</a></span>
+  </div>
+</div>-->
 </body>
 </html>
